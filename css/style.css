@@ -1,0 +1,50 @@
+.cell {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  border: solid 1px grey;
+  box-sizing: border-box;
+}
+
+#grid {
+  line-height: 0.5;
+  width: 640px;
+}
+
+.brush {
+  width: 2em;
+  height: 2em;
+  display: inline-block;
+  border-radius: 100%;
+  border: solid black 1px;
+  margin-bottom: 15px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 150px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-radius: 20%;
+  background-color: white;
+}
+
+#grid {
+  margin-bottom: 20px;
+}
+
+body {
+  background-color: grey;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  border-radius: 25%;
+  margin: 25px 500px;
+  background-color: white;
+  font-family: monospace;
+  font-size: 22px;
+}
